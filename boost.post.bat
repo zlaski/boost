@@ -20,6 +20,10 @@ set "_arg16=%0" & shift
 call "%AKIBLD%\build-event-env.bat" post %_arg01% %_arg02% %_arg03% %_arg04% %_arg05% %_arg06% %_arg07% %_arg08% %_arg09% %_arg10% %_arg11% %_arg12% %_arg13% %_arg14% %_arg15% %_arg16%
 :: boost.vcxproj post-build 
  
+exit 0
+
+:::: don't need this stuff any more'
+
 echo **** Installing Boost headers ****
 echo.
 

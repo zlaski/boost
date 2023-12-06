@@ -40,7 +40,7 @@ if /i [%Configuration%]==["Release"] set Variant=release
 
 echo ====== variant=%Variant% address-model=%Bitness% ======
 
-b2 --clean
+b2 --clean -d0
 echo.
 echo This will take a while . . .
 b2 install --prefix=%IntDir% --build-dir=%IntDir% --includedir=%OutDir%\..\include --libdir=%OutDir%\..\lib --toolset=msvc --no-cmake-config --layout=system -d0 variant=%Variant% address-model=%Bitness%
