@@ -23,10 +23,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(ProjectName).pre.bat">
-      <Filter>Build Files</Filter>
-    </None>
-    <None Include="$(ProjectName).post.bat">
+    <None Include="$(ProjectName).akibld.bat">
       <Filter>Build Files</Filter>
     </None>
   </ItemGroup>
@@ -36,7 +33,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(ProjectName).cpp">
+    <ClCompile Include="$(ProjectName).c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

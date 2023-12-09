@@ -10,14 +10,13 @@
     <ClInclude Include="$(ProjectName).h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(ProjectName).cpp" />
+    <ClCompile Include="$(ProjectName).c" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(ProjectName).pre.bat" />
-    <None Include="$(ProjectName).post.bat" />
+    <None Include="$(ProjectName).akibld.bat" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\akibld\akibld-lib.vcxproj">
+    <ProjectReference Include="%AKIBLD%\akibld-lib.vcxproj">
       <Project>{23650bdb-c46f-43ce-8c77-056924f69b6a}</Project>
     </ProjectReference>
   </ItemGroup>
