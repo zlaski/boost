@@ -16,7 +16,7 @@
     <None Include="$(ProjectName).akibld.bat" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="%AKIBLD%\akibld-lib.vcxproj">
+    <ProjectReference Include="$(AKIBLD)\akibld-lib.vcxproj">
       <Project>{23650bdb-c46f-43ce-8c77-056924f69b6a}</Project>
     </ProjectReference>
   </ItemGroup>
